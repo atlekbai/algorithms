@@ -1,0 +1,7 @@
+#!/bin/bash
+echo -e "\033[00;32mmain naive: \033[0m"
+./naive < $1
+echo -e "\033[00;33md&q naive: \033[0m"
+./main < $1
+echo -e "\033[00;34md&q effective: \033[0m"
+./effective < $1
