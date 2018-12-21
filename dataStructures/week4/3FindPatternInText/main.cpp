@@ -38,6 +38,7 @@ public:
 			if (T.substr(i, i + P.length()) == P)
 				result.push_back(i);
 		}
+		std::cout << "size: " << result.size() << std::endl;
 		return (result);
 	}
 
